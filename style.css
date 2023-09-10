@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navSearch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoImg img{
+    padding: 0px 60px;
+    width: 290px;
+}
+.divInput{
+    display: flex;
+    padding-right: 90px;
+}
+#sect{
+    min-height: 85vh;
+    background-color: #ebebe6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.male{
+    color:#3e8df4;
+}
+.female{
+    color: #fb37a3;
+}
+.unknown{
+    color: #7a7a7a;
+}
+.alive{
+    color: #009f00;
+}
+.dead{
+    color: #c2202f;
+}
+.specie{
+    color: #ffdf00;
+}
+.resetBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centralize{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#divBtnResetAll{
+    position: fixed;
+    top: 90vh;
+    right: 10vh;
+
+}
+@media screen and (max-width:400px) {
+    #navSearch{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+    .divInput{
+        display: flex;
+    }
+    .divInput input{
+        width: 100px;
+    }
+    #divBtnResetAll{
+        right: 80px;
+    }
+}
+@media (min-width:401px) and (max-width:700px){
+    #navSearch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+    }
+}

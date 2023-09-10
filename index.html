@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="./src/node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <!-- Link Bootstrap-icons -->
+    <link rel="stylesheet" href="./src/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Link Favicon -->
+    <link rel="shortcut icon" href="src/node_modules/bootstrap-icons/icons/tropical-storm.svg" type="image/x-icon">
+
+    <title>Gerador Aleatório Rick And Morty</title>
+</head>
+<body class="bg-light">
+
+   <header id="navSearch" class="navbar navbar-expand-lg bg-dark">
+        <div class="logoImg">
+            <img src="./src/img/Rick-And-Morty-Logo-Transparent-File.png">
+        </div>
+        <div class="divInput">
+            <input class="form-control me-2" id="id" type="search" placeholder="ID Character (EX:1)" aria-label="Search">
+            <button class="btn btn-outline-light" id="submit" type="submit">Search</button>
+        </div>
+   </header> 
+
+   <section class="row pt-3" id="sect">
+
+   </section>
+   <div id="divBtnResetAll">
+        <button id="btnRestAll" class="btn btn-danger"><i class="bi bi-arrow-counterclockwise"></i></button>
+   </div>
+    <script src="./src/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
